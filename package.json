@@ -9,8 +9,16 @@
     "express": "^5.1.0"
   },
   "devDependencies": {
+    "@eslint/css": "^0.14.0",
+    "@eslint/js": "^9.39.1",
+    "@eslint/json": "^0.13.2",
+    "@eslint/markdown": "^7.5.0",
     "@types/express": "^5.0.5",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "jiti": "^2.6.1",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.3"
   }
 }
