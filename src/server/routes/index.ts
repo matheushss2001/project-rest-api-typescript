@@ -8,10 +8,15 @@ router.get('/', (_, res) => { // criou o endpoint
     return res.send("Olá, DEV!");
 });
 
-router.post('/teste',(req,res) => { /// criou uma nova rota
-    console.log(req);
+router.post(
 
-    return res.status(StatusCodes.UNAUTHORIZED).json(req.body)
-})
+    '/teste',
+
+    (req,res) => { /// criou uma nova rota
+        //console.log(req);
+        return res.status(StatusCodes.UNAUTHORIZED).json(req.body);
+    }
+
+);
 
 export { router };
