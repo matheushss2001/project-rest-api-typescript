@@ -12,6 +12,7 @@ router.get('/', (_, res) => { // criou o endpoint
 
 
 // rota para cidade
+router.get('/cidades', CidadesController.getAllValidation, CidadesController.getAll);
 router.post('/cidades', CidadesController.createValidation, CidadesController.create);
 
 export { router };
