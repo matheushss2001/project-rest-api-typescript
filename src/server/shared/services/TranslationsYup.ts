@@ -1,5 +1,6 @@
 import { setLocale} from 'yup'
 
+// Realiza as traduções das mensagens de erro da biblioteca YUP
 setLocale({
   mixed: {
     required: 'Este campo é obrigatório',
